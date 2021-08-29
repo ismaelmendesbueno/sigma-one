@@ -1,0 +1,421 @@
+:root {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#D6D6D6;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-image: url("https://static.wixstatic.com/media/d29a11_e11177df565d4e1abfad72645dc2a368~mv2.jpg/v1/fill/w_1183,h_278,al_c,q_80,usm_0.66_1.00_0.01/d29a11_e11177df565d4e1abfad72645dc2a368~mv2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 251px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#init button{
+    background-color:#D6D6D6;
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    height: 80px;
+    border: none;
+
+}
+
+#init button:hover {
+    cursor: pointer;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+  
+}
+
+#menu ul li { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+
+#menu ul li:hover {
+    background-color:#3d3c3c;
+    color: #fafafa;
+    cursor: pointer;
+    
+}
+
+#tree p{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    right: 300px;
+    font-size: 30px;
+}
+
+#four img{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#ione {
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    bottom: 100px;
+    
+    width: 450px;
+}
+
+#itwo {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 30px;
+    width: 200px;
+}
+
+#itree {
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    width: 400px;
+}
+
+#sobre img{
+    margin-left: 410px;
+    margin-top: 0px;
+}
+
+#sobre h1 {
+    display: inline;
+    position: relative;
+    left: 500px;
+    bottom: 370px;
+}
+
+.sobrenos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#sobre span {
+    display: inline;
+    position: relative;
+    left: 360px;
+    bottom: 300px;
+}
+
+#sobre-nos {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 850px;
+    bottom: 500px;
+
+    
+}
+
+
+#sobre-nos-two {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 260px;
+    bottom: 500px;
+
+    
+}
+
+.menu {
+    background-color:#D6D6D6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+   display: flex;
+   margin-left: 530px;
+   margin-top: 100px;
+}
+
+#planos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+
+ 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+.card {
+   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    width: 400px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+    
+    
+}
+
+
+
+.card h2{
+   font-size: 50px;
+   color: white;
+}
+
+.card button {
+    height: 70px;
+    border: none;
+    background-color:#b8b3b3;
+    border-radius: 3px;
+}
+
+.card button:hover {
+    background-color:#dfdfdf;
+    cursor: pointer;
+}
+
+.green {
+    background-image: url(./images/gta-sa-mod-loadscreens-hd-4k-widescreen-artworks-definitive.png);
+    background-repeat: no-repeat;
+  
+}
+
+.red {
+    background-image: url(./images/TeamSpeak_logo_renovado.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.blue {
+    background-image: url(./images/mtasa.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: -40px;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 0;
+}
+
+#mage {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 420px;
+}
+
+#info {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    left: 900px;
+    bottom: 365px;    
+}
+
+#info h1 {
+    font-size: 15px;
+    color: rgb(68, 66, 66);
+}
+
+#imagemm {
+    background-image: url("https://static.wixstatic.com/media/d29a11_877c1a198d4742999a42d36db4ddeab1~mv2.png/v1/fill/w_409,h_408,al_c,lg_1,q_85/sigma_host_logo.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    left: 420px;
+    width: 500px;
+    height: 500px;
+}
+
+#perguntas {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   bottom: 300px;
+   left: 900px;
+}
+
+#forms input {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 400px;
+    position: relative;
+    left: 900px;
+    top: 200px;    
+    margin-bottom: 10px;
+}
+
+.but {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 1210px;
+    bottom: 110px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.but:hover:hover {
+    cursor: pointer;
+}
+
+#card {
+    height: 500px;
+    width: 900px;
+    display: flex;
+
+    background-color:#e4e1e1;
+    margin-top: 30px ;
+    margin-left: 450px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    -webkit-box-shadow: -15px 15px 14px rgba(29, 140, 231, 0.45);
+	-moz-box-shadow:    -15px 15px 14px rgba(29, 140, 231, 0.45);
+	box-shadow:         -15px 15px 14px rgba(29, 140, 231, 0.45);
+   
+}
+
+#cartao {
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#cartao h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#cartao h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#cartao p {
+ position: relative;
+ left: 40px;
+    
+}
+
+#cartao button {
+    width: 250px;
+    height: 40px;
+    border: none;
+}
+
+#cartao button:hover {
+    cursor: pointer;
+    background-color:#000000;
+    color: white;
+}
+
+
+
+
+#card-2 {
+    height: 500px;
+    width: 900px;
+    display: flex;
+    background-color:#e4e1e1;
+    margin-top: 30px ;
+    padding-bottom: 50px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 30px;
+
+    -webkit-box-shadow: -15px 15px 14px rgba(29, 140, 231, 0.45);
+	-moz-box-shadow:    -15px 15px 14px rgba(29, 140, 231, 0.45);
+	 box-shadow:         -15px 15px 14px rgba(29, 140, 231, 0.45);
+   
+   
+}
+
