@@ -50,6 +50,7 @@ a {
 
 #init button:hover {
     cursor: pointer;
+    
 }
 #menu ul {
     padding:0px;
@@ -88,6 +89,10 @@ a {
     color: #fafafa;
     cursor: pointer;
     
+}
+
+#menu ul li a:hover {
+    color: white;
 }
 
 #tree p{
