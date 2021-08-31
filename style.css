@@ -152,6 +152,8 @@ a {
 #title {
     display: grid;
     margin-left: -170px;
+    color: rgb(34, 33, 33);
+    font-family: robot,sans-serif;
 }
 
 
@@ -229,22 +231,25 @@ a {
 }
 
 .green {
-    background-image: url(./images/gta-sa-mod-loadscreens-hd-4k-widescreen-artworks-definitive.png);
+    background-image: url(./images/samp-logo-png-6.png);
     background-repeat: no-repeat;
+    background-position-y: 30px;
+    background-position-x: 28px ;
 
 }
 
 .red {
     background-image: url(./images/TeamSpeak_logo_renovado.png);
-    background-size: 400px;
+    background-size: 300px;
+    
     background-repeat: no-repeat;
 }
 
 .blue {
     background-image: url(./images/mtasa.png);
     background-repeat: no-repeat;
-    background-size: 500px;
-    background-position-x: -40px;
+    background-size: 400px;
+    background-position-x: -50px;
 }
 
 #contato {
