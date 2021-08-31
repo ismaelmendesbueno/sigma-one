@@ -12,11 +12,6 @@ body {
     
 }
 
-
-span {
-    position: relative;
-    left: 100px;
-}
 main {
     padding: 0;
     margin: 0;
@@ -134,55 +129,33 @@ a {
     top: 80px;
     width: 400px;
 }
-
-#sobre img{
-    margin-left: 410px;
-    margin-top: 0px;
-}
-
-#sobre h1 {
-    display: inline;
-    position: relative;
-    left: 500px;
-    bottom: 370px;
-}
-
 .sobrenos {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-}
+    margin-top: 20px;
+    font-family: roboto,sans-serif;
+ }
 
-#sobre span {
-    display: inline;
-    position: relative;
-    left: 360px;
-    bottom: 300px;
-}
 
-#sobre-nos {
+#sobre {
     display: flex;
-    justify-content: flex-end;
-    position: relative;
-    right: 850px;
-    bottom: 500px;
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
 
-    
+#sobre img {
+    width: 300px;
+
+}
+
+#title {
+    display: grid;
+    margin-left: -170px;
 }
 
 
-#sobre-nos-two {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    right: 260px;
-    bottom: 500px;
 
-    
-}
 
 .menu {
     background-color:#D6D6D6;
