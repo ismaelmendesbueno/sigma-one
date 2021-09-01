@@ -279,11 +279,15 @@ a {
 #contato-tree input {
     width: 300px;
     height: 30px;
+    margin-bottom: 1px;
 }
 
 #contato-tree button {
-    width: 308px;
+    width: 200px;
     height: 30px;
+    margin-top: 5px;
+    margin-left: 108px;
+  
 }
 
 
