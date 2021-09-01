@@ -55,7 +55,8 @@ a {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 30px;
+    top: 20px;
+    
     text-decoration: none;
   
 }
@@ -69,7 +70,8 @@ a {
     color: #333;
     text-decoration: none;
     width: 250px;
-    height: 40px;
+    height: 30px;
+    margin-left: 2px;
     text-decoration: none;
     
 }
@@ -256,10 +258,35 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 30px;
     padding: 0;
 }
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contato-tree {
+    display: grid;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#contato-tree input {
+    width: 300px;
+    height: 30px;
+}
+
+#contato-tree button {
+    width: 308px;
+    height: 30px;
+}
+
+
 
 #mage {
     position: relative;
